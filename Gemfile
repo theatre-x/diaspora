@@ -42,7 +42,7 @@ gem 'rack-cors', '0.2.8', :require => 'rack/cors'
 # CSS
 
 gem 'bootstrap-sass', '2.3.2.2'
-gem 'compass-rails',  '2.0.alpha.0'
+gem 'compass-rails',  '1.1.2'
 gem 'sass-rails',     '4.0.0'
 
 # Database
