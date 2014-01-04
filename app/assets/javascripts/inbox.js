@@ -24,7 +24,7 @@ $(document).ready(function(){
     jqe.attr('title', '');
   });
 
-  $('.conversation-wrapper').live('click', function(){
+  $(document).on('click', '.conversation-wrapper', function(){
     var conversation_path = $(this).data('conversation-path');
 
     $.getScript(conversation_path, function() {
@@ -90,12 +90,5 @@ $(document).ready(function(){
   // remove the paginator when we're done.
   $(document).ajaxError(function(e,xhr,opt){
     if (xhr.status == 404) { $('a.next_page').remove(); }
-  });
-
-  $('#reply_to_conversation').live('click', function(evt) {
-    evt.preventDefault();
-     $('html, body').animate({scrollTop:$(window).height()}, 'medium', function(){
-      $('#message_text').focus();
-     });
   });
 });
