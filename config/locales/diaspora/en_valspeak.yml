@@ -5,16 +5,16 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
-en:
-  settings: "Settings"
-  profile: "Profile"
-  account: "Account"
-  privacy: "Privacy"
-  privacy_policy: "Privacy Policy"
-  terms_and_conditions: "Terms and Conditions"
-  _services: "Services"
-  _applications: "Applications"
-  _photos: "photos"
+en_valspeak:
+  settings: "Like ur settinz"
+  profile: "Like ur profile"
+  account: "Like ur account"
+  privacy: "OMG give me some privacy!"
+  privacy_policy: "Wat like... privacy u have"
+  terms_and_conditions: "wat ur like... allowed to do and stuff"
+  _services: "Other socialz"
+  _applications: "Appz"
+  _photos: "Picz n selfiez"
   _help: "Help"
   ok: "OK"
   cancel: "Cancel"
